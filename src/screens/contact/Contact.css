@@ -1,0 +1,56 @@
+/* style={{
+    width: '75%',
+    borderRadius: 100,
+    padding: '8px 12px',
+    borderColor: "#045538",
+    color: "#045538",
+    fontWeight: 400,
+    fontSize: 22
+}} */
+
+.select-issue {
+    width: 100%;
+    border-radius: 100px;
+    padding: 8px 12px;
+    border-color: #045538;
+    color: #045538;
+    font-weight: 400;
+    font-size: 21;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.green-hr {
+    height: 3px;
+    width: 275px;
+    background-color: #219653;
+    margin: 16px auto;
+    border-radius: 100px;
+}
+
+.contact-card {
+    background-color: #219653;
+    padding: 20px;
+    margin: 15px;
+    height: 202px;
+    width: 247px;
+    border-radius: 50px 50px 0 0;
+}
+
+
+@media (max-width:992px) {
+    .st-1 {
+        font-size: 16px;
+    }
+
+
+    .green-hr {
+        height: 3px;
+        width: 225px;
+        background-color: #219653;
+        margin: 8px auto;
+        border-radius: 100px;
+    }
+}

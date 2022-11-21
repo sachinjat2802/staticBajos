@@ -1,0 +1,75 @@
+.bg-img-con {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/images/home.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    .bg-img-con {
+        height: 360px;
+        width: 100vw;
+        background-image: url('../../assets/home.png');
+        background-position: center;
+        background-size: fill;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+
+.home-h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.home-h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+.home-input {
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.17);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(7px);
+    border-radius: 57px;
+    padding: 12px 22px;
+    width: 400px;
+}
+
+.home-input::-webkit-input-placeholder {
+    color: #C1C1C1;
+}
+
+@media (max-width: 992px) {
+
+    .home-h1 {
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .home-h2 {
+        font-size: 10px;
+        font-weight: 300;
+        color: white;
+    }
+
+    .home-input {
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.17);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(7px);
+        border-radius: 57px;
+        padding: 3px 14px;
+        width: 255px;
+    }
+
+    .home-input::-webkit-input-placeholder{
+        font-size: 12px;
+    }
+}

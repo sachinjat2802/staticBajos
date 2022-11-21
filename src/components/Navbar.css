@@ -1,0 +1,32 @@
+.nav-container {
+    border-radius: 100px;
+    padding: 12px 27px;
+    background: #2E9572;
+    z-index: 12;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+    overflow-y: hidden;
+}
+
+
+.nav-container>* {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    z-index: 12;
+}
+
+.logo-text {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    z-index: 12;
+}
+
+.side-link{
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
